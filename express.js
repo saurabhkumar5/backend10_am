@@ -49,6 +49,7 @@ app.get('/',(req,res)=>{
 // })
 
 app.get('/about',(req,res)=>{
+    console.log(req.subdomains)
     res.send('<h1>hello from backend from about page</h1>')
 })
 

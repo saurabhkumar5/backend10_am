@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon express.js"
+    "start": "nodemon mongodb.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
+    "mongoose": "^8.5.1",
     "nodemon": "^3.1.4"
   }
 }
